@@ -11,6 +11,7 @@
 <link href="resources/styles/site.css" rel="stylesheet" type="text/css">
 <link href="resources/styles/custom.css" rel="stylesheet" type="text/css">
 <script src="resources/js/jquery-1.8.1.js"></script>
+<script src="resources/js/jqueryui/ui/jquery-ui-1.8.23.custom.js"></script>
 <decorator:head />
 </head>
 
@@ -61,7 +62,7 @@
 <script>
 $(function() {
 	$("#mainTabs").tabs();
-	$("#brancheTabs").tabs({ selected: 1 });
+	$("#brancheTabs").tabs({ selected: 0 });
 });
 </script>
 
