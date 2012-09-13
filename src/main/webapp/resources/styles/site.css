@@ -33,7 +33,7 @@ table th {
 	background-color: #C3C3C3;
 }
 
-input[type="button"] {
+input[type="button"],input[type="submit"] {
 	font-size: 11pt;
 	padding: 5px 15px;
 	background-color: #B5B6B8;
@@ -92,28 +92,6 @@ select {
 
 .siteheader span {
 	float: right;
-}
-
-.sitelogin {
-	text-align: center;
-	margin-top: 150px;
-	height: 100%;
-}
-
-.sitelogin label {
-	display: inline-block;
-	width: 80px;
-	font-size: 15px;
-	color: #9694A2;
-	margin: 10px;
-	margin-bottom: 20px;
-	text-align: right;
-}
-
-.sitelogin input[type="button"] {
-	width: 150px;
-	margin-left: 50px;
-	background-color: #3290CC;
 }
 
 .sitebreadcrumb {

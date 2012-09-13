@@ -2,6 +2,6 @@
 
 <decorators defaultdir="/WEB-INF/decorators">
 	<decorator name="branchtool" page="branchtool.jsp">
-		<pattern>/*</pattern>
+		<pattern>/feature-list</pattern>
 	</decorator>
 </decorators>

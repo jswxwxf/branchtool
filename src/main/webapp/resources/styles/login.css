@@ -1,0 +1,21 @@
+.sitelogin {
+	text-align: center;
+	margin-top: 150px;
+	height: 100%;
+}
+
+.sitelogin label {
+	display: inline-block;
+	width: 80px;
+	font-size: 15px;
+	color: #9694A2;
+	margin: 10px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.sitelogin input[type="submit"] {
+	width: 150px;
+	margin-left: 100px;
+	background-color: #3290CC;
+}
