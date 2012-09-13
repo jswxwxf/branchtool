@@ -7,6 +7,7 @@
 <title>Gram - Build BOT</title>
 <link href="resources/styles/site.css" rel="stylesheet" type="text/css">
 <script src="resources/js/jquery-1.8.1.js"></script>
+<decorator:head />
 </head>
 
 <body>
