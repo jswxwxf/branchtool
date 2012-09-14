@@ -7,5 +7,6 @@
 	<decorator name="branchtool" page="branchtool.jsp">
 		<pattern>/feature-*</pattern>
 		<pattern>/integration-*</pattern>
+		<pattern>/release-*</pattern>
 	</decorator>
 </decorators>
