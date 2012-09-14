@@ -12,6 +12,9 @@
 <link href="resources/styles/custom.css" rel="stylesheet" type="text/css">
 <script src="resources/js/jquery-1.8.1.js"></script>
 <script src="resources/js/jqueryui/ui/jquery-ui-1.8.23.custom.js"></script>
+<script src="resources/js/chosen/chosen.jquery.js"></script>
+<script src="resources/js/multiselect/ui.multiselect.js"></script>
+<script src="resources/js/common.js"></script>
 <decorator:head />
 </head>
 
@@ -26,9 +29,8 @@
 
 <!-- Main Tabs -->
 
-<script src="js/jqueryui/ui/jquery-ui-1.8.23.custom.js"></script>
-<script src="js/chosen/chosen.jquery.js"></script>
-<script src="js/multiselect/ui.multiselect.js"></script>
+<form id="_actionForm" action="">
+</form>
 
 <div id="mainTabs">
 	<ul>
@@ -58,13 +60,6 @@
 	<div id="tabs-buildrequest">TODO</div>
 
 </div>
-
-<script>
-$(function() {
-	$("#mainTabs").tabs();
-	$("#brancheTabs").tabs({ selected: 0 });
-});
-</script>
 
 <!-- end of Main Tabs -->
 

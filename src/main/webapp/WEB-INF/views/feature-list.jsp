@@ -7,7 +7,7 @@
 	<table class="featurelist">
 		<caption>
 			Feature Branch List
-			<input type="button" value="NEW FEATURE">
+			<input type="button" value="NEW FEATURE" onclick="doAction('feature-create');" />
 		</caption>
 		<thead>
 			<tr>
@@ -20,12 +20,12 @@
 			<tr>
 				<td>Enterprise Portal</td>
 				<td>Badri Rajan</td>
-				<td><input type="button" value="MANAGE"></td>
+				<td><input type="button" value="MANAGE" onclick="doAction('feature-edit')"></td>
 			</tr>
 			<tr>
 				<td>Disney CMS</td>
 				<td>Badri Rajan</td>
-				<td><input type="button" value="MANAGE"></td>
+				<td><input type="button" value="MANAGE" onclick="doAction('feature-edit')"></td>
 			</tr>
 		</tbody>
 	</table>
@@ -39,3 +39,11 @@
 		<input type="button" value="&gt;">
 	</span>
 </div>
+
+
+<script>
+$(function() {
+	$("#mainTabs").tabs();
+	$("#brancheTabs").tabs({ selected: 0 });
+});
+</script>
