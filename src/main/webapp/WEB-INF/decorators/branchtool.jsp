@@ -44,9 +44,9 @@
 		
 		<div id="brancheTabs">
 			<ul>
-				<li><a href="#tabs-branchfeatures">FEATURE</a></li>
-				<li><a href="#tabs-branchintegrations">INTEGRATION</a></li>
-				<li><a href="#tabs-branchreleases">RELEASE</a></li>
+				<li><a href="#tabs-branchfeatures" onclick="doAction('feature-list')">FEATURE</a></li>
+				<li><a href="#tabs-branchintegrations" onclick="doAction('integration-list')">INTEGRATION</a></li>
+				<li><a href="#tabs-branchreleases" onclick="doAction('release-list')">RELEASE</a></li>
 			</ul>
 			
 			<decorator:body />
