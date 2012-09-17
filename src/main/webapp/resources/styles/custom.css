@@ -1,89 +1,28 @@
-.ui-widget-content {
+.site-tabs {
 	background: transparent;
 	border: none;
+	width: 100%;
+	margin: auto 2px;
 }
 
-#mainTabs .ui-tabs {
-	padding: 0px;
-	margin-top: 4px;
-}
-
-#mainTabs .ui-tabs-nav {
-	font-size: 11pt;
+.site-tabs .ui-tabs-nav {
+	font-size: 108%;
 	border-radius: 0px;
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
 	padding-left: 15px !important;
 }
 
-#mainTabs .ui-widget-header {
+.site-tabs .ui-widget-header {
 	border: none;
 	background: #C7C6C5;
 }
 
-#brancheTabs .ui-tabs-nav {
+.site-tabs .ui-tabs-nav {
 	border: none;
 	box-shadow: none;
 	padding-left: 25px !important;
 }
 
-#brancheTabs .ui-widget-header {
+.module-tabs .ui-widget-header {
 	background: transparent;
-}
-
-.chzn-container {
-	font-size: 11pt !important;
-	margin-left: -5px;
-}
-
-.ui-multiselect {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 13px;
-	margin-left: -5px;
-	border-radius: 5px;
-	width: 500px !important;
-	border-color: #B1B1B1;
-	background-color: white;
-}
-
-.ui-multiselect .available,.ui-multiselect .selected {
-	height: 100% !important;
-	width: 49% !important;
-}
-
-.ui-multiselect .available {
-	border-left-color: #B1B1B1 !important;
-}
-
-.ui-multiselect .search {
-	width: 170px !important;
-	background-color: white;
-	border: 1px solid;
-	font-size: 11px;
-	color: black !important;
-}
-
-.ui-multiselect .connected-list {
-	width: 100% !important;
-}
-
-.ui-multiselect .count {
-	border: none;
-	background-color: transparent;
-}
-
-.ui-multiselect li {
-	padding: 5px;
-	font-size: 11pt;
-	border: 1px #B1B1B1 solid !important;
-	background: white !important;
-}
-
-.ui-multiselect .ui-widget-header {
-	font-size: 11pt;
-	background-color: #C3C3C3 !important;
-}
-
-.ui-multiselect li a.action {
-	top: 7px;
 }

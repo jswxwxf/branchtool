@@ -1,84 +1,22 @@
-* {
-	font-family: "Segoe UI", verdana, arial, helvetica, sans-serif;
-}
-
-input {
-	font-family: "Segoe UI", verdana, arial, helvetica, sans-serif
-		!important;
+html {
+	background-color: #EAEAEA;
 }
 
 body {
-	margin: 0px;
-	margin-bottom: 50px !important;
-	background-color: #EAEAEA;
-	font-size: 15px;
+	font-family: "Segoe UI", arial, helvetica, clean, sans-serif;
+	width: 99%;
 }
 
-table {
-	border-spacing: 0;
-	border-left: 1px solid #B1B1B1;
-	border-bottom: 1px solid #B1B1B1;
-}
-
-table td,table th {
-	border-top: 1px solid #B1B1B1;
-	border-right: 1px solid #B1B1B1;
-	padding: 5px 10px;
-	font-weight: normal;
-	text-align: left;
-	background-color: white;
-}
-
-table th {
-	background-color: #C3C3C3;
-}
-
-input[type="button"],input[type="submit"] {
-	font-size: 11pt;
-	padding: 5px 15px;
-	background-color: #B5B6B8;
-	color: white;
-	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-	cursor: pointer;
-	border-radius: 5px;
-	border-width: 1px;
-}
-
-.sitesubmit {
-	float: right;
-}
-
-.sitesubmit input[type="button"] {
-	background-color: #3290CC;
-	padding: 15px 25px;
-}
-
-.sitecancel {
-	background-color: #585858 !important;
-}
-
-input[type="text"] {
-	padding: 5px;
-	padding-left: 15px;
-	font-size: 11pt;
-	border-radius: 10px;
-	border-width: 1px;
-}
-
-select {
-	padding: 5px;
-	font-size: 11pt !important;
-	border-radius: 10px;
-	border-width: 1px;
-	border-color: #A6A6A6;
-}
-
-.siteheader {
+/* =====================================
+	header
+*/
+.site-header {
+	width: 100%;
 	padding: 5px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-.siteheader>div {
+.site-header>div {
 	margin: 10px;
 	background-color: #48748E;
 	color: white;
@@ -86,162 +24,133 @@ select {
 	border-radius: 10px;
 }
 
-.siteheader h2 {
+.site-header h2 {
 	display: inline;
+	font-size: 167%;
 }
 
-.siteheader span {
+.site-header span {
 	float: right;
 }
 
-.sitebreadcrumb {
-	font-size: 8pt;
+/* =====================================
+	input text box
+*/
+.site-input {
+	padding: 5px;
+	padding-left: 15px;
+	font-size: 116%;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+/* =====================================
+	bread crumb
+*/
+.site-breadcrumb {
+	font-size: 80%;
 	color: gray;
 }
 
-.paginator input[type="button"] {
-	padding: 3px 8px;
-}
-
-.paginator input[type="button"][disabled] {
-	background-color: #DDDDDE;
-	cursor: auto;
-}
-
-.paginator a {
-	color: #B4C0D3 !important;
-	text-decoration: none;
-	font-size: 14px;
-}
-
-.paginator a:hover,.paginator a.active {
-	color: black !important;
-	text-decoration: underline;
-}
-
-.searchfeature {
+/* =====================================
+	float left and right
+*/
+.site-right {
 	float: right;
-	position: relative;
-	top: -75px;
 }
 
-.searchfeature input[type="text"] {
-	width: 200px !important;
+.site-left {
+	float: left;
 }
 
-.searchfeature input[type="image"] {
-	position: relative;
-	left: -40px;
-	top: 4px;
+/* =====================================
+	caption
+*/
+.site-caption {
+	padding-bottom: 15px;
+	padding-left: 5px;
+	font-size: 182%;
 }
 
-table.featurelist {
+.site-list-table caption {
+	padding-top: 13px;
+	text-align: left;
+}
+
+div.site-caption {
+	padding-top: 23px;
+	margin-bottom: -7px;
+}
+
+/* =====================================
+	table
+*/
+.site-table {
 	width: 100%;
 }
 
-table.featurelist caption,.caption {
+.site-table th,.site-table td {
 	text-align: left;
-	padding-bottom: 15px;
-	padding-left: 5px;
-	font-size: 26px;
+	padding: 10px;
+	font-weight: normal;
+	border-color: #B1B1B1;
 }
 
-.caption {
-	padding-top: 13px;
+.site-table th {
+	background-color: #C3C3C3;
 }
 
-.count {
-	border: 1px #9E9E9E solid;
-	padding: 1px 8px;
-	border-radius: 30px;
-	background-color: #EBEBEB;
+.site-table td {
+	background-color: white;
 }
 
-table.featurelist input[type="button"] {
-	float: right;
+#tabs-branchreleases .site-table {
+	margin-top: 10px;
 }
 
-table.featurelist td input[type="button"] {
-	background-color: #3290CC;
-}
-
-table.featurelist .last-child {
+/* =====================================
+	list table
+*/
+.site-list-table .site-button-col {
 	width: 50px;
 }
 
-table.featurelist tfoot td {
-	text-align: right;
-	background-color: transparent;
-	border: none;
-}
-
-#tabs-branchfeatures .paginator {
-	float: right;
-	padding-top: 15px;
-}
-
-#brancheTabs label {
-	display: inline-block;
-	width: 150px;
-	font-size: 15px;
-	color: #9694A2;
-	margin: 10px;
-}
-
-#brancheTabs input[type="text"] {
-	width: 300px;
-}
-
-#brancheTabs select {
-	width: 320px;
-	position: relative;
-	left: -5px;
-}
-
-table.deliverables,table.integrationedit {
-	width: 100%;
+/* =====================================
+	deliverables table
+*/
+.site-deliverables-table {
 	table-layout: fixed;
 }
 
-table.integrationedit td {
+.site-deliverables-table td {
 	vertical-align: top;
-	padding-top: 8px;
-}
-
-table.deliverables td {
-	vertical-align: top;
-	padding-top: 8px;
+	padding-top: 18px;
+	padding-bottom: 15px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	overflow: hidden;
 }
 
-table.deliverables .locations span {
-	display: inline-block;
-	color: #9694A2;
-	width: 60px;
+/* =====================================
+	searcher
+*/
+#tabs-branchfeatures .site-searcher {
+	position: relative;
+	top: -65px;
 }
 
-table.deliverables .count {
-	float: right;
+/* =====================================
+	button
+*/
+.site-button {
+	background-color: #3290CC;
+	color: white;
+	font-size: 13px !important;
 }
 
-table.deliverables .integrationeditbtn {
-	background: url("../images/hp_sprite.png") -284px -81px;
-	width: 32px;
-	height: 32px;
-	cursor: pointer;
-}
-
-div.failedstatus {
-	display: inline-block;
-	background: url("../images/hp_sprite.png") -52px -80px;
-	width: 26px;
-	height: 32px;
-}
-
-div.retry {
+.site-button-retry {
 	display: inline-block;
 	background: url("../images/hp_sprite.png") -27px -80px;
 	width: 26px;
@@ -249,88 +158,91 @@ div.retry {
 	cursor: pointer;
 }
 
-table.deliverables div.failedstatus,table.deliverables div.retry {
-	margin-top: -6px;
-	margin-left: 5px;
-	float: right;
-}
-
-.failedstatus {
-	color: #AE1C6E;
-}
-
-.readystatus {
-	color: #32BF37;
-}
-
-input[type="button"].editdeliverables {
-	width: 120px;
-	float: right;
-	position: relative;
-	top: -5px;
-}
-
-#tabs-branchintegrations input[type="button"] {
-	float: right;
-	background-color: #3290CC;
-	position: relative;
-	top: -5px;
-}
-
-table.deliverableedit {
-	width: 100%;
-}
-
-table.deliverableedit label,table.integrationedit label {
-	width: 50px !important;
-}
-
-table.deliverableedit input[type="text"] {
-	width: 470px !important;
-}
-
-table.deliverableedit td {
-	vertical-align: top;
-}
-
-#brancheTabs table.developers {
-	width: 100%;
-}
-
-table.deliverableedit table.developers td {
-	height: 30px;
-}
-
-table.deliverableedit table.developers .access {
-	color: #9694A2;
-}
-
-table.deliverableedit table.developers .addaccess,table.deliverableedit table.developers .removeaccess
-	{
+.site-tooltip-icon {
 	display: inline-block;
+	background: url("../images/hp_sprite.png") -52px -80px;
 	width: 26px;
-	height: 26px;
-	float: right;
+	height: 32px;
+	margin: 0 5px;
+}
+
+.site-deliverables-table .site-button-retry,.site-deliverables-table .site-tooltip-icon
+	{
+	margin-top: -10px;
+}
+
+.site-button-edit {
+	background: url("../images/hp_sprite.png") -284px -81px;
+	width: 32px;
+	height: 32px;
 	cursor: pointer;
 }
 
-table.deliverableedit table.developers .addaccess {
-	background: url("../images/hp_sprite.png") -27px -85px;
+.site-deliverables-table .site-button-edit {
+	margin-top: -10px;
+	margin-left: 2px;
 }
 
-table.deliverableedit table.developers .removeaccess {
-	background: url("../images/hp_sprite.png") -1px -85px;
+/* =====================================
+	paginator
+*/
+.site-paginator input {
+	padding: 3px 8px;
 }
 
-.branchfailed {
-	width: 250px;
-	background-color: white !important;
-	border-radius: 5px;
-	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
-	padding: 10px !important;
+.site-paginator a {
+	color: #B4C0D3 !important;
+	text-decoration: none;
+	font-size: 14px;
 }
 
-.branchfailed h3 {
-	font-size: 8pt;
-	font-weight: normal !important;
+.site-paginator a:hover,.site-paginator a.active {
+	color: black !important;
+	text-decoration: underline;
+}
+
+/* =====================================
+	form
+*/
+.site-form {
+	font-size: 116%;
+}
+
+.site-form label {
+	display: inline-block;
+	width: 150px;
+	color: #9694A2;
+	margin: 10px;
+}
+
+/* =====================================
+	site paddings
+*/
+.site-margin-l {
+	margin-left: 5px;
+}
+
+/* =====================================
+	count
+*/
+.site-count {
+	border: 1px #9E9E9E solid;
+	padding: 1px 8px;
+	border-radius: 30px;
+	background-color: #EBEBEB;
+}
+
+.site-deliverables-table .site-count {
+	margin-top: -2px;
+}
+
+/* =====================================
+	status
+*/
+.site-status-ready {
+	color: #32BF37;
+}
+
+.site-status-failed {
+	color: #AE1C6E;
 }
